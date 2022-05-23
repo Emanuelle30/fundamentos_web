@@ -1,49 +1,85 @@
 /* Estilos da página index.html*/
-.center{
+
+body{
+    margin: 0;
+    background-color: rgb(211, 242, 242);
+}
+
+nav{
+    background-color: black;
+    padding: 10px 50px;
+    
+}
+
+.a{
+    color: rgb(37, 186, 186);
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    Font-weight: bold
+}
+
+ul{
+    list-style: none;
+    padding: 10px 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+li{
+    padding: 0 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgb(171, 9, 166);
+}
+
+#sobre{
     text-align: center;
 }
 
-.justify{
+#copy{
     text-align: center;
 }
 
 .container{
-    display: inline-block;
-    justify-content: baseline;
-    background-color: #b2e6eb;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 80vw; 
+  margin: 0 auto; 
+  gap: 2rem;
 }
 
-#menu li{
-    display: inline-block;
-    margin: 10px;
-}
-
-#menu li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#menu li a:hover{
-    color: #b2e6eb;
-}
-
-.p-style{
-    padding: 20px;
-}
 
 .br-50{
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    padding: 20px;
+    padding: 10px;
+    background: black;
 }
 
+#video{
+    display: flex;
+    justify-content: center;
+}
 
+.sub-titulo{
+    border: solid;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    Font-weight: bold;
 
-
+}
 
 /* Estilos da página contato.html*/
