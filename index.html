@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <nav>
         <ul>
@@ -19,17 +17,18 @@
             </li>
         </ul>
     </nav>
-    <h1 id="sobre"> Sobre a Emanuelle</h1>
     <div class="container">
         <div>
-            <img class="br-50" src="assets/img/foto perfil Manu.jpeg" width="350px" height="350px" alt="Minha Foto">
+            <img id="imagem" class="br-50" src="assets/img/foto perfil Manu.jpeg" width="350px" height="350px"
+                alt="Minha Foto">
         </div>
-        <div class="center">
-            <p>
+        <div>
+            <h1 id="sobre"> Sobre a Emanuelle</h1>
+            <p id="p-textos">
                 Olá, eu sou a Emanuelle Cavalcante, profissional graduada em administração de empresas,
                 estudante de Psicologia e de desenvolvimento Full Stack.
             </p>
-            <p>
+            <p id="p-textos">
                 Minha história com a tecnologia começou na infância, com muito esforço e parcelando
                 em inúmeras vezes, consegui fazer meu primeiro curso de informática, lembro-me também
                 do fascínio ao ganhar o meu primeiro vídeo game, um Nintendo velhinho, mas ainda funcionando,
@@ -37,7 +36,7 @@
                 E falando de jogos o meu favorito era o Mario, aquele encanador me fez quebrar muito a cabeça,
                 mas a cada fase passada a alegria era imensa e o sabor do aprendizado e da superação contagiantes.
             </p>
-            <p>
+            <p id="p-textos">
                 Ao longo da minha vida passei por diversas áreas como: administrativa,
                 telemarketing, atendimento de clientes e estagiando numa escola,
                 no acolhimento de crianças e jovens, bem como, preparando e ministrando
@@ -46,7 +45,7 @@
                 que trago comigo, como agilidade, precisão, foco na qualidade,
                 gentiliza ao lidar com as pessoas e jogo de cintura para lidar com imprevistos.
             </p>
-            <p>
+            <p id="p-textos">
                 Hoje tenho plena certeza do caminho que quero trilhar e sigo estudando e me
                 atualizado para em breve está conquistando a minha primeira oportunidade como
                 desenvolvedora Full Stack Jr.
@@ -56,21 +55,29 @@
     </div>
     <hr>
     <h2 class="sub-titulo">Sessão vamos rir!</h2>
-    <div id="video">
+    <div id="video" class="mb-30">
         <iframe width="640" height="360" src="https://www.youtube.com/embed/16TmUmBvUc4" title="YouTube video player"
             frameborder="0" allow="accelerometer; autoplay; 
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </div>
     <hr>
-    <div>
-        <footer id="copy">
-            <p>
-                Emanuelle Cavalcante &copy;
-            </p>
-        </footer>
-    </div>
-
+    <footer>
+        <div class="icone-style">
+            <a href="https://github.com/Emanuelle30">
+                <img class="p-20" src="assets/icones/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://www.linkedin.com/in/30emanuellecavalcante/">
+                <img class="p-20" src="assets/icones/linkedin.png" alt="Logo do linkedIn">
+            </a>
+            <a href="mailto:emanuelle.cavalcante4@gmail.com">
+                <img class="p-20" src="assets/icones/gmail.png" alt="Logo do Gmail">
+            </a>
+        </div>
+        <p id="copy" class="mb-30">
+            Todos os direitos reservados: Emanuelle Cavalcante &copy;
+        </p>
+    </footer>
+    <script> scr = "assets/" </script>
 </body>
-
 </html>
