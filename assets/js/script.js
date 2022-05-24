@@ -11,7 +11,7 @@ nome.style.width = "100%"
 email.style.width = "100%"
 
 function validaNome() {
-    let txtNome = document.querySelector("txtNome")
+    let txtNome = document.querySelector("#txtNome")
     if (nome.value.length < 3) {
         txtNome.innerHTML = 'Nome inválido!'
         txtNome.style.color = 'Red'
@@ -22,8 +22,8 @@ function validaNome() {
     }
 }
 function validaEmail() {
-    txtEmail = document.querySelector("#txtEmail")
-    if (email.value.indexof('@') == -1 || email.value.indexof('.') == -1) {
+    let txtEmail = document.querySelector("#txtEmail")
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = 'E-mail inválido!'
         txtEmail.style.color = 'Red'
     } else {
@@ -34,13 +34,14 @@ function validaEmail() {
 }
 function validaAssunto() {
     let txtAssunto = document.querySelector("#txtAssunto")
+
     if (assunto.value.length >= 100) {
-        txtAssunto.innerHTML = "Texto muito grande, digite no máximo 100caracteres"
-        txtAssunto.style.color = "red"
-        txtAssunto.style.display = 'block'
+        txtAssunto.innerHTML = "Texto muito grande, digite no máximo 100 caracteres"
+        txtAssunto.style.color = "Red"
+        txtAssunto.style.display = "block"
+
     } else {
-        txtAssunto.innerHTML = 'E-mail válido!'
-        txtAssunto.style.display = 'none'
+        txtAssunto.style.display = "none"
         assuntoOk = true
     }
 }
