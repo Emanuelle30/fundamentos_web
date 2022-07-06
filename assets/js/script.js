@@ -53,10 +53,10 @@ function enviar() {
     }
 }
 function mapaZoom() {
-    mapa.style.width = '800px'
+    mapa.style.width = '500px'
     mapa.style.heigth = '600px'
 }
 function mapaNormal() {
-    mapa.style.width = '550px'
-    mapa.style.heigth = '250px'
+    mapa.style.width = '350px'
+    mapa.style.heigth = '350px'
 }
